@@ -6,6 +6,19 @@ body {
   /* color: red; */
 
 }
+h2, h3 {
+  font-family: 'Lora', serif;
+}
+h4 {
+  font-family: 'Lora', serif;
+}
+iframe {
+  width: 580px;
+  height: 320px;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif; -->
+}
 
 /* ************************** ID SELECTOR **************** */
 #brand-logo-n-title {
@@ -17,8 +30,13 @@ body {
 #brand-logo-n-title h1 {
   margin-left: 12px;
 }
+#email {
+  margin: 8px;
+  padding: 6px;
+  font-size: 12px;
+  width: 300px;
+}
 
-/* ***********************************I was working in css for form and its button */
 #form-button {
   background-color: Yellow;
   border: none;
@@ -121,12 +139,7 @@ body {
 .form-email-submit h2 {
   font-size:30px;
 }
-.form-email-submit .email {
-  margin: 8px;
-  padding: 6px;
-  font-size: 12px;
-  width: 300px;
-}
+
 .footer {
   display: grid;
   grid-gap: 10px;
@@ -354,33 +367,105 @@ body {
 
 @viewport {
   width: device-width;
-  zoom:1.0 ;
+  zoom: 1.0;
 }
 @media screen and (max-width: 480px){
+  body {
+    max-width: 100%;
+  }
   .card {
+    border: 2px solid gray;
+    width: 220px;
+    margin-bottom: 30px;
+    border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
   }
+  .card h4{
+    font-style: bold;
+    font-size: 12px;
+    background-color: LightGray;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .card h3{
+    font-style: bold;
+    font-size: 18px;
+  }
+  .card p {
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .card-btn {
+    background-color: Yellow;
+    font-size: 12px;
+    padding: 6px 8px;
+    margin: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
   .cards {
     display: flex;
-    width:92%;
+    width:94%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     flex-direction:column;
   }
+
   .company-feature {
-     width: 80%;
+     width: 92%;
+     padding-bottom: 0px;
+  }
+  .company-feature-icon {
+    margin-bottom: 90px;
+  }
+  .company-product-features {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .form-email-submit h2 {
+    font-size: 18px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-email-submit {
+    width:98%;
+  }
+  .footer-heading {
+    font-size: 16px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+  .footer-main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-main-background {
+    background-color: LightGray;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
   }
   .header-container {
    flex-direction: column;
+   position: static;
+   top: 0;
+   left: 0;
+   right: 0;
    width: 100%;
-   height: 166px;
+   height: 120px;
    margin-bottom: 2px;
   }
   .nav-bar-div-cover {
     width: 100%;
-    height: 80px;
+    height: 40px;
     text-align: center;
   }
   .nav-bar-div {
@@ -388,13 +473,13 @@ body {
     flex-direction:row;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     height: inherit;
     margin-left: auto;
     margin-right: auto;
     padding-right: 0px;
     font-weight: bold;
-    padding-top: 14px;
+    padding-top: 2px;
   }
   .nav-link {
     width: 100px
@@ -405,13 +490,36 @@ body {
     flex-direction:row;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    height: 70px;
+    padding-top: 5px;
     width: 100%;
+  }
+  #brand-logo-n-title img{
+    width: 60px;
+    width: 60px;
+    padding: 3px;
+    padding-left: -6px;
+  }
+  #brand-logo-n-title h1 {
+    margin-left: 8px;
+    font-size: 28px;
+    font-family: 'Freckle Face', auto;
+  }
+  #email {
+    padding: 3px;
+    margin:4px;
+    font-size: 14px;
+    width: 170px;
+  }
+  #form-button {
+    font-size: 12px;
+    border-radius: 8px;
+    margin-top: 4px;
   }
   #nav-bar {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-column-gap: 80px;
+    grid-column-gap: 20px;
   }
 
 }
