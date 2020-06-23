@@ -3,9 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Landing Page</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Lora:ital,wght@1,500&family=Source+Sans+Pro:wght@300;400;900&display=swap" rel="stylesheet">
+  <!-- font-family: 'Freckle Face', cursive;
+font-family: 'Lora', serif;
+font-family: 'Source Sans Pro', sans-serif; -->
   <style media="screen">
   html {
     cursor: url(images/cursor.png) 1 1, auto;
@@ -24,9 +28,9 @@
     <div class="nav-bar-div-cover">
       <div class="nav-bar-div">
        <nav id="nav-bar">
-           <a href="#Features" class="nav-link">Features</a>
-           <a href="#How It Works" class="nav-link">How It Works</a>
-           <a href="#Pricing" class="nav-link">Pricing</a>
+           <a href="#features" class="nav-link">Features</a>
+           <a href="#product-video" class="nav-link">How It Works</a>
+           <a href="#pricing" class="nav-link">Pricing</a>
        </nav>
      </div>
     </div>
@@ -40,7 +44,7 @@
           <h2>Handcrafted, home-made masterpieces</h2>
           <input
               type="email"
-              class="email"
+              id="email"
               name="email"
               placeholder="Enter your email address"
           /><br/>
@@ -50,7 +54,7 @@
 <!-- ******************   *****************  FORM PART ************       ******************* -->
 
 <!-- ******************** After form part when features of product company is provided *************-->
-  <div class="company-product-features">
+  <div id ="features"class="company-product-features">
     <div class="company-feature">
       <img src="images/money.png" class="company-feature-icon" alt="Premium Materials">
       <h2>Premium Materials</h2>
@@ -72,7 +76,7 @@
   </div>
 
   <div id="product-video">
-    <iframe width="520" height="280" src="https://www.youtube.com/embed/y55M0hIHLzc?controls=1" frameborder="0"
+    <iframe src="https://www.youtube.com/embed/y55M0hIHLzc?controls=1" frameborder="0"
 
      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
@@ -81,7 +85,7 @@
   <!-- ************   ***** After form part when features of product company is provided ****   ******** -->
 
 <!-- ********************************** CARD PART ************************************* -->
-  <div class="cards">
+  <div i="pricing" class="cards">
     <div class="card">
       <h4>TENOR TROMBONE</h4>
       <h3>$600</h3>
