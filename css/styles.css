@@ -37,18 +37,7 @@ p {
   width: 300px;
 }
 
-#form-button {
-  background-color: Yellow;
-  border: none;
-  font-weight: 600;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 6px;
-  border-style: outset;
-  border-width: 2px;
-  padding: 6px;
-  margin-top: 8px;
-}
+
 #nav-bar {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -128,10 +117,21 @@ p {
    margin-top: 100px;
    margin-bottom: 60px;
  }
-
+.form-button {
+  background-color: Yellow;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-style: outset;
+  border-width: 2px;
+  padding: 6px;
+  margin-top: 8px;
+}
 
 .form-email-submit {
-  width:700px;
+  width:96%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -148,7 +148,6 @@ p {
             "copyright-statement copyright-statement copyright-statement";
 }
 
-/* ************************************  I WAS HERE WORKING WITH GRID */
 .grid-area1 {
   grid-area: footer-top-word1;
   justify-self: center;
@@ -261,6 +260,9 @@ p {
   .company-feature {
      width: 80%;
   }
+  .form-email-submit {
+    width: 96%;
+  }
   .header-container {
    flex-direction: column;
    width: 100%;
@@ -310,7 +312,7 @@ p {
   zoom: 1.0;
 }
 @media screen and (min-width: 482px) and (max-width: 640px) {
-  iframe {
+    iframe {
   width: 420px;
   height: 260px;
 }
@@ -329,7 +331,7 @@ p {
   .company-feature {
      width: 80%;
   }
-  form-email-submit {
+   .form-email-submit {
     width: 96%;
   }
   .header-container {
@@ -384,10 +386,10 @@ p {
   body {
     max-width: 100%;
   }
- iframe {
-  width: 96%;
+    iframe {
+  width: 94%;
   height: 220px;
-} 
+}
   .card {
     border: 2px solid gray;
     width: 220px;
@@ -446,6 +448,11 @@ p {
   .company-product-features {
     margin-top: 50px;
     margin-bottom: 30px;
+  }
+  .form-button {
+    font-size: 12px;
+    border-radius: 8px;
+    margin-top: 4px;
   }
   .form-email-submit h2 {
     font-size: 18px;
@@ -531,11 +538,7 @@ p {
     font-size: 14px;
     width: 170px;
   }
-  #form-button {
-    font-size: 12px;
-    border-radius: 8px;
-    margin-top: 4px;
-  }
+  
   #nav-bar {
     display: grid;
     grid-template-columns: auto auto auto;
