@@ -310,7 +310,6 @@ p {
   zoom: 1.0;
 }
 @media screen and (min-width: 482px) and (max-width: 640px) {
-  width: 640px) {
   iframe {
   width: 420px;
   height: 260px;
