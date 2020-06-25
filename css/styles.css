@@ -340,6 +340,7 @@ p {
    width: 100%;
    height: 166px;
    margin-bottom: 2px;
+   position:static;
   }
   .nav-bar-div-cover {
     width: 100%;
