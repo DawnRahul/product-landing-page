@@ -267,6 +267,7 @@ p {
    flex-direction: column;
    width: 100%;
    height: 166px;
+   position: static;
    margin-bottom: 2px;
   }
   .nav-bar-div-cover {
